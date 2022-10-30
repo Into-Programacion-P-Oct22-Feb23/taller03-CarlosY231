@@ -2,29 +2,25 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package ejercicio08;
+package ejercicio09;
 
 /**
  *
  * @author litoy
  */
-public class Ejercicio08 {
+public class Ejercicio09 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int var1 = 10;
-        int var2 = 9;
-        int var3 = 20;
-        int var4 = 500;
-        int var5 = 2;
-        int var6 = 3;
-        int var7 = 200;
-        int var8 = 50;
-        int var9 = 51;
-        System.out.println(((var1 * var2) + var3 - (var4/var5) + Math.pow(var6, var5) >= var7) || (var8 >= var8 / var8 + var9));
+        int var1 = 81;
+        int var2 = 25;
+        int var3 = 10;
+        int var4 = 50;
+        
+        System.out.println((Math.sqrt(var1) + Math.sqrt(var2) * var3) >= var4);
     }
     
 }
